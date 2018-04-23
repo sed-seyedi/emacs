@@ -1,12 +1,3 @@
-# My Emacs #
+# Sed's Emacs
 
-To configure a server to use this emacs setup just do the following:
-
-$ rm .emacs.d/*
-
-$ clone this repo
-
-$ mv emacs .emacs.d
-
-
-*Have Fun*
+To use this just create a backup of your .emacs.d directory and then replace it with this repo.
