@@ -77,8 +77,8 @@ Including indent-buffer, which should not be called automatically on save."
 (global-set-key (kbd "C-c n") 'cleanup-buffer)
 
 ;; background and foreround colors:
-(set-foreground-color "black")
-(set-background-color "white")
+(set-foreground-color "#90EE02")
+(set-background-color "#341228")
 
 ;; disable color crap
 ;; You can also toggle the color crap with "Meta-x global-font-lock-mode".
@@ -87,7 +87,7 @@ Including indent-buffer, which should not be called automatically on save."
 
 ;; Default font
 ;(set-default-font "Inconsolata-24")
-(set-default-font "Fantasque Sans Mono-24")
+(set-default-font "Fantasque Sans Mono-18")
 
 ;; http://emacs.stackexchange.com/a/5941
 (when (fboundp 'electric-indent-mode) (electric-indent-mode -1))
