@@ -76,9 +76,9 @@ Including indent-buffer, which should not be called automatically on save."
   (indent-region (point-min) (point-max)))
 (global-set-key (kbd "C-c n") 'cleanup-buffer)
 
-;; background and foreround colors:
+;; background and foreround colors: green: #90EE02
 (set-foreground-color "#90EE02")
-(set-background-color "#341228")
+(set-background-color "#212127") ; #341228
 
 ;; disable color crap
 ;; You can also toggle the color crap with "Meta-x global-font-lock-mode".
