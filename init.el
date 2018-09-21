@@ -78,7 +78,7 @@ Including indent-buffer, which should not be called automatically on save."
 (global-set-key (kbd "C-c n") 'cleanup-buffer)
 
 ;; background and foreround colors: green: #90EE02
-(set-foreground-color "#BFBFBF")
+(set-foreground-color "#bfbfbf"); whiteish #BFBFBF
 (set-background-color "#2D0922") ; #341228
 
 ;; disable color crap
@@ -130,6 +130,9 @@ Including indent-buffer, which should not be called automatically on save."
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
+ '(ansi-color-faces-vector
+   [default default default italic underline success warning error])
+ '(custom-enabled-themes (quote (tango-dark)))
  '(inhibit-startup-screen t))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
