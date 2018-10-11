@@ -79,7 +79,8 @@ Including indent-buffer, which should not be called automatically on save."
 
 ;; background and foreround colors: green: #90EE02
 (set-foreground-color "#bfbfbf"); whiteish #BFBFBF
-(set-background-color "#2D0922") ; #341228
+;(set-background-color "#2D0922") ; #341228
+(set-background-color "#300A24") ; #341228
 
 ;; disable color crap
 ;; You can also toggle the color crap with "Meta-x global-font-lock-mode".
