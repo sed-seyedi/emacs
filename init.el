@@ -89,7 +89,7 @@ Including indent-buffer, which should not be called automatically on save."
 
 ;; Default font
 ;(set-default-font "Inconsolata-24")
-(set-default-font "Fantasque Sans Mono-18")
+(set-default-font "Fantasque Sans Mono-16")
 
 ;; http://emacs.stackexchange.com/a/5941
 (when (fboundp 'electric-indent-mode) (electric-indent-mode -1))
