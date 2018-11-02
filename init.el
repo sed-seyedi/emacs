@@ -78,9 +78,11 @@ Including indent-buffer, which should not be called automatically on save."
 (global-set-key (kbd "C-c n") 'cleanup-buffer)
 
 ;; background and foreround colors: green: #90EE02
-(set-foreground-color "#bfbfbf"); whiteish #BFBFBF
+;(set-foreground-color "#bfbfbf"); whiteish #BFBFBF
 ;(set-background-color "#2D0922") ; #341228
-(set-background-color "#300A24") ; #341228
+;(set-background-color "#300A24") ; #341228
+(set-background-color "white")
+(set-foreground-color "black")
 
 ;; disable color crap
 ;; You can also toggle the color crap with "Meta-x global-font-lock-mode".
@@ -134,7 +136,7 @@ Including indent-buffer, which should not be called automatically on save."
  ;; If there is more than one, they won't work right.
  '(ansi-color-faces-vector
    [default default default italic underline success warning error])
- '(custom-enabled-themes (quote (tango-dark)))
+ '(custom-enabled-themes (quote (tango-light)))
  '(inhibit-startup-screen t))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
