@@ -123,11 +123,11 @@ Including indent-buffer, which should not be called automatically on save."
 (delete '("\\.css?\\'" flymake-xml-init) flymake-allowed-file-name-masks)
 (delete '("\\.js?\\'" flymake-xml-init) flymake-allowed-file-name-masks)
 
-;(use-package ido
-;  :config
-;  (setq ido-enable-flex-matching t)
-;  (ido-everywhere t)
-;  (ido-mode 1))
+(use-package ido
+  :config
+  (setq ido-enable-flex-matching t)
+  (ido-everywhere t)
+  (ido-mode 1))
 
 (custom-set-variables
  ;; custom-set-variables was added by Custom.
@@ -136,8 +136,11 @@ Including indent-buffer, which should not be called automatically on save."
  ;; If there is more than one, they won't work right.
  '(ansi-color-faces-vector
    [default default default italic underline success warning error])
- '(custom-enabled-themes (quote (tango-light)))
- '(inhibit-startup-screen t))
+ '(custom-enabled-themes (quote (tango-dark)))
+ '(inhibit-startup-screen t)
+ '(package-selected-packages
+   (quote
+    (dumb-jump use-package try magit-find-file go-mode avy auto-complete))))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
